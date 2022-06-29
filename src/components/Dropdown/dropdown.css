@@ -1,0 +1,18 @@
+.accordion-body{
+    width: 11rem;
+    
+    text-decoration: none;
+    /* display: flex;
+    flex-direction: row; */
+}
+#sidebarMenu{
+  width: 12%;
+  text-align: left;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #da1;
+    border-top: 0;
+    border-bottom: 0;
+}

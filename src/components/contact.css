@@ -1,0 +1,63 @@
+#contactForm{
+    width: 44%;
+    background: #ddaa111f;
+    border: 4px solid #da1;
+    top: 8rem;
+    border-radius: 2rem;
+    display: flex;
+    transform: translate(60%,5%);
+    flex-direction: column;
+    justify-content: center;
+    height: 25rem;
+}
+label {
+    display: inline-block;
+    font-size: 1.5rem;
+    /* float: left; */
+    color: #da1;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+input{
+    /* margin: 2em; */
+    border-radius: 1rem;
+    border: none;
+    border-bottom: #da1;
+    /* background: #da1; */
+}
+#contactButton{
+    border-radius: 1rem;
+    background-color: rgb(136, 103, 4);
+    border: none;
+}
+#contactButton:hover{
+    background-color: #0a0a0a;
+}
+@media (max-width:992px){
+    #contactForm{
+        width: 100%;
+        background: #ddaa111f;
+        border: 4px solid #da1;
+        top: 8rem;
+        border-radius: 2rem;
+        display: flex;
+        transform: translate(2%,5%);
+        flex-direction: column;
+        justify-content: center;
+        height: 25rem;
+    }
+}
+@media (max-width:600px){
+    #contactForm{
+        width: 97%;
+        background: #ddaa111f;
+        border: 4px solid #da1;
+        top: 8rem;
+        border-radius: 2rem;
+        display: flex;
+        transform: translate(2%,5%);
+        flex-direction: column;
+        justify-content: center;
+        height: 25rem;
+    }
+}
